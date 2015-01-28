@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.remusdobrican.turapp.WarningStartActivity_3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Warning!"
+        android:id="@+id/textView"
+        android:textColor="@color/text_color"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="58dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="76dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are not in Turin. Do you want to continue?"
+        android:id="@+id/textView2"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/abc_text_size_menu_material"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="52dp"
+        android:textAppearance="@color/highlighted_text_material_light" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue Offline - Get Start Point!"
+        android:id="@+id/buttonMap"
+        android:background="#ffc8ffb8"
+        android:focusable="true"
+        android:capitalize="words"
+        android:elegantTextHeight="true"
+        android:textStyle="italic"
+        android:onClick="startMap"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quit"
+        android:id="@+id/button2"
+        android:background="#ffff"
+        android:elegantTextHeight="true"
+        android:textStyle="italic"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/buttonMap"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+</RelativeLayout>

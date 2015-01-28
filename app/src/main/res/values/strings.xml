@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TurApp</string>
+
+    <!-- Welcome Splash Screen -->
+    <string name="app_logo_top">Turin Rally</string>
+    <string name="welcome">Welcome</string>
+    <string name="app_version_info">Turin Rally v1.0. Copyright ALezza</string>
+
+    <!-- Main Menu -->
+    <string name="welcome_to_turin">Welcome to Turin!</string>
+    <string name="photo_desc">Turin Panorama Photo</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main_activity2">MainActivity2</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_menu">Turin Rally Menu</string>
+
+    <!-- Warning - Offline Activity -->
+    <string name="title_activity_warning_start">WarningStartActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_game_view">GameView</string>
+
+    <!-- Challenge1 -->
+    <string name="title_activity_challenge1">challenge1</string>
+    <string name="title_activity_bad_answer_challenge1">BadAnswerActivity</string>
+    <string name="title_activity_good_answer_challenge1">GoodAnswerActivity</string>
+
+    <!-- Challenge2 -->
+    <string name="title_activity_challenge2">Challenge2Activity</string>
+    <string name="title_activity_good_answer_challenge2">GoodAnswerActivity2</string>
+    <string name="title_activity_bad_answer_challenge2">BadAnswerActivity2</string>
+
+    <!-- Challenge3 -->
+    <string name="title_activity_challenge3">Challenge3Activity</string>
+    <string name="title_activity_good_answer_challenge3">GoodAnswerActivity3</string>
+    <string name="title_activity_bad_answer_challenge3">BadAnswerActvitity3</string>
+
+    <!-- Challenge4 -->
+    <string name="title_activity_challenge4">Challenge4Activity</string>
+    <string name="title_activity_good_answer_challenge4">GoodAnswerActivity4</string>
+    <string name="title_activity_bad_answer_challenge4">BadAnswerActvitity4</string>
+
+    <!-- Wiki app -->
+    <string name="dialog_fire_missiles">Not installed</string>
+    <string name="wiki_missing_app">Want to download the Wikipedia application?</string>
+    <string name="ok_wiki_button">Ok</string>
+    <string name="cancel_wiki_button">Cancel</string>
+
+    <!-- Snake app -->
+    <string name="game_dialog_box">Not installed</string>
+    <string name="game_missing_app">Want to install Snake ?</string>
+
+    <!-- Main Menu with 4 buttons -->
+    <string name="title_activity_main_menu_activity_2">MainMenuActivity_2</string>
+    <string name="title_activity_turin_rally">TurinRallyActivity</string>
+    <string name="title_activity_about_app">AboutAppActivity</string>
+    <string name="title_activity_wiki">WikiActivity</string>
+
+    <!-- Disclaimer Activity -->
+    <string name="disclaimer"><b>Disclaimer:</b>\n\n
+        This application was created for the purpose of completing a Software Development Project comprised in the evaluation scheme of the "Principles of Software Development" course at the University of Luxembourg. The project aims to demonstrate that the basic concepts of programming with Android have been understood and dully applied in order to create a "City Rally" application. This application is intended to provide some general points on interest within a city, together with an innovative and interesting was of learning about these particular landmarks.\n\n\n
+        © January 2015 Andra Lezza All Rights Reserved"</string>
+
+    <!-- Mistery Activity -->
+    <string name="title_activity_mistery_main">Mistery Main</string>
+    <string name="title_activity_warning_start_activity_3">WarningStartActivity_3</string>
+    <string name="title_activity_about_app_activity_4">AboutAppActivity_4</string>
+    <string name="title_activity_map_activity_5">MapActivity_5</string>
+    <string name="title_activity_mistery_main_activity_6">MisteryMainActivity_6</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
